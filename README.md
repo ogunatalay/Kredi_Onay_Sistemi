@@ -96,32 +96,6 @@ Projeyi yerel ortamınızda veya Replit gibi bir platformda çalıştırmak içi
 
 ---
 
-## Proje Yapısı
-
-Proje, daha iyi modülerlik ve okunabilirlik için ayrı dosyalara bölünmüştür:
-
-.
-├───kredi_basvurusu_veri_seti.csv
-├───main.cpp                  # Ana program mantığı ve model çalıştırma
-├───Basvuru.h                 # Kredi başvurusu veri yapısı
-├───Metrics.h                 # Performans metrikleri tanımı
-├───Metrics.cpp               # Performans metrikleri implementasyonu
-├───HelperFunctions.h         # Veri okuma, normalizasyon vb. yardımcı fonksiyonlar
-├───HelperFunctions.cpp       # Yardımcı fonksiyonların implementasyonu
-├───Perceptron.h              # Perceptron model tanımı
-├───Perceptron.cpp            # Perceptron implementasyonu
-├───SimpleRuleModel.h         # Basit Kural Modeli tanımı
-├───SimpleRuleModel.cpp       # Basit Kural Modeli implementasyonu
-├───LogisticRegression.h      # Lojistik Regresyon model tanımı
-├───LogisticRegression.cpp    # Lojistik Regresyon implementasyonu
-├───SimpleDecisionTree.h      # Basit Karar Ağacı model tanımı
-├───SimpleDecisionTree.cpp    # Basit Karar Ağacı implementasyonu
-├───LinearSVM.h               # Doğrusal SVM model tanımı
-└───LinearSVM.cpp             # Doğrusal SVM implementasyonu
-
-
----
-
 ## Performans Metrikleri
 
 Modellerin performansı aşağıdaki metrikler kullanılarak değerlendirilir:
